@@ -1,0 +1,28 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+void main() 
+{
+    // Write C code here
+    int a[10],i,j,sum=0,avg;
+    printf("enter values in array:   ");
+    for(i=0;i<10;i++)
+    {
+    scanf("%d",&a[i]);
+    }
+    
+    
+    for(i=0;i<10;i++)
+    {
+        printf("%d",a[i]);
+     }
+    
+    for(i=0;i<10;i++)
+    {
+        sum+=a[i];
+    }
+    printf("sum=%d\n",sum);
+    avg=sum/10;
+    printf("avrg=%d\n",avg);
+  
+}
